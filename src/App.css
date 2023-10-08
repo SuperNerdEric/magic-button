@@ -44,9 +44,11 @@ button:active {
 
 .outlined-text {
   color: black;
-  -webkit-text-stroke-width: 1px; /* Webkit browsers like Chrome, Safari */
-  -webkit-text-stroke-color: white;
-  text-stroke-width: 1px; /* In case this gets standardized in the future */
-  text-stroke-color: white;
-  font-weight: bold; /* Makes the font bolder */
+  font-weight: bold;
+  text-shadow:
+          1px 1px 0px white,
+          -1px -1px 0px white,
+          1px -1px 0px white,
+          -1px 1px 0px white;
 }
+
