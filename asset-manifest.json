@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/magic-button/static/css/main.a4e25cf0.css",
+    "main.css": "/magic-button/static/css/main.096201fb.css",
     "main.js": "/magic-button/static/js/main.117c38cc.js",
     "static/js/787.d15f2c1a.chunk.js": "/magic-button/static/js/787.d15f2c1a.chunk.js",
+    "static/media/QuiteMagical.ttf": "/magic-button/static/media/QuiteMagical.3b6c87f9c81828e4ddd6.ttf",
+    "static/media/PentagramsSalemica-B978.ttf": "/magic-button/static/media/PentagramsSalemica-B978.6c759087730e348f2ff4.ttf",
+    "static/media/Maigan.ttf": "/magic-button/static/media/Maigan.6b3ac09eef1384c42c0a.ttf",
     "index.html": "/magic-button/index.html",
-    "main.a4e25cf0.css.map": "/magic-button/static/css/main.a4e25cf0.css.map",
+    "main.096201fb.css.map": "/magic-button/static/css/main.096201fb.css.map",
     "main.117c38cc.js.map": "/magic-button/static/js/main.117c38cc.js.map",
     "787.d15f2c1a.chunk.js.map": "/magic-button/static/js/787.d15f2c1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e25cf0.css",
+    "static/css/main.096201fb.css",
     "static/js/main.117c38cc.js"
   ]
 }
