@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/magic-button/static/css/main.e22c7f2d.css",
-    "main.js": "/magic-button/static/js/main.8b6b0e37.js",
+    "main.css": "/magic-button/static/css/main.0e46ff21.css",
+    "main.js": "/magic-button/static/js/main.117c38cc.js",
     "static/js/787.d15f2c1a.chunk.js": "/magic-button/static/js/787.d15f2c1a.chunk.js",
     "index.html": "/magic-button/index.html",
-    "main.e22c7f2d.css.map": "/magic-button/static/css/main.e22c7f2d.css.map",
-    "main.8b6b0e37.js.map": "/magic-button/static/js/main.8b6b0e37.js.map",
+    "main.0e46ff21.css.map": "/magic-button/static/css/main.0e46ff21.css.map",
+    "main.117c38cc.js.map": "/magic-button/static/js/main.117c38cc.js.map",
     "787.d15f2c1a.chunk.js.map": "/magic-button/static/js/787.d15f2c1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e22c7f2d.css",
-    "static/js/main.8b6b0e37.js"
+    "static/css/main.0e46ff21.css",
+    "static/js/main.117c38cc.js"
   ]
 }
