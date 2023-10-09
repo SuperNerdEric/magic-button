@@ -35,7 +35,7 @@ button {
   border: none;
   outline: none; /* Remove the default focus outline */
   transition: background-color 0.3s;
-  font-size: 210%;
+  font-size: 75px;
   color: black;
   font-family: 'Quite Magical', fallbackFont, sans-serif;
 }
