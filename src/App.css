@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  transition: background-color 1s ease-in-out;
 }
 
 .App-logo {
@@ -28,10 +29,13 @@ button {
   background-color: purple;
   border-radius: 50%; /* This will make it a circle */
   border: none;
-  cursor: pointer;
   outline: none; /* Remove the default focus outline */
   transition: background-color 0.3s;
   font-size: 24px;
+}
+
+body, html {
+  overflow: hidden;
 }
 
 button:hover {
@@ -52,3 +56,26 @@ button:active {
           -1px 1px 0px white;
 }
 
+.sparkle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  clip-path: polygon(50% 0%, 61% 35%, 100% 50%, 61% 65%, 50% 100%, 39% 65%, 0% 50%, 39% 35%);
+  animation: sparkleAnimation 1.5s ease infinite;
+}
+
+@keyframes sparkleAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+}
