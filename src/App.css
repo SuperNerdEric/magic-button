@@ -35,7 +35,8 @@ button {
   border: none;
   outline: none; /* Remove the default focus outline */
   transition: background-color 0.3s;
-  font-size: 24px;
+  font-size: 75px;
+  font-family: 'Quite Magical', fallbackFont, sans-serif;
 }
 
 body, html {
@@ -82,4 +83,25 @@ button:active {
     transform: scale(0);
     opacity: 0.5;
   }
+}
+
+@font-face {
+  font-family: 'PentagramsSalemica';
+  src: url('./assets/fonts/PentagramsSalemica-B978.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maigan';
+  src: url('./assets/fonts/Maigan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quite Magical';
+  src: url('./assets/fonts/QuiteMagical.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
