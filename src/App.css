@@ -38,6 +38,9 @@ button {
   font-size: 75px;
   color: black;
   font-family: 'Quite Magical', fallbackFont, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body, html {
