@@ -9,7 +9,7 @@ const getRandomDarkColor = (): string => {
 }
 
 const App: React.FC = () => {
-    const [color, setColor] = useState<string>(getRandomDarkColor());
+    const [color, setColor] = useState<string>('rgb(14, 23, 54)');
 
     const pressButton = (): void => {
         const randomColor = getRandomDarkColor();
